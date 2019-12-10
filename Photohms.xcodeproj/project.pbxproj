@@ -13,6 +13,10 @@
 		3F2B78C0239F568A00B0760D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B78BF239F568A00B0760D /* Assets.xcassets */; };
 		3F2B78C3239F568A00B0760D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B78C2239F568A00B0760D /* Preview Assets.xcassets */; };
 		3F2B78C6239F568A00B0760D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B78C4239F568A00B0760D /* LaunchScreen.storyboard */; };
+		3F2B78CE239F56AF00B0760D /* UIImageExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B78CD239F56AF00B0760D /* UIImageExtentions.swift */; };
+		3F2B78D0239F56B500B0760D /* CaptureImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B78CF239F56B500B0760D /* CaptureImageView.swift */; };
+		3F2B78D2239F56C200B0760D /* Coodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B78D1239F56C200B0760D /* Coodinator.swift */; };
+		3F2B78D4239F58A800B0760D /* Resistor Band.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B78D3239F58A800B0760D /* Resistor Band.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3F2B78C2239F568A00B0760D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F2B78C5239F568A00B0760D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F2B78C7239F568A00B0760D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2B78CD239F56AF00B0760D /* UIImageExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtentions.swift; sourceTree = "<group>"; };
+		3F2B78CF239F56B500B0760D /* CaptureImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureImageView.swift; sourceTree = "<group>"; };
+		3F2B78D1239F56C200B0760D /* Coodinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coodinator.swift; sourceTree = "<group>"; };
+		3F2B78D3239F58A800B0760D /* Resistor Band.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resistor Band.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				3F2B78BD239F568700B0760D /* ContentView.swift */,
 				3F2B78BF239F568A00B0760D /* Assets.xcassets */,
 				3F2B78C4239F568A00B0760D /* LaunchScreen.storyboard */,
+				3F2B78CD239F56AF00B0760D /* UIImageExtentions.swift */,
+				3F2B78D1239F56C200B0760D /* Coodinator.swift */,
+				3F2B78D3239F58A800B0760D /* Resistor Band.swift */,
+				3F2B78CF239F56B500B0760D /* CaptureImageView.swift */,
 				3F2B78C7239F568A00B0760D /* Info.plist */,
 				3F2B78C1239F568A00B0760D /* Preview Content */,
 			);
@@ -146,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F2B78CE239F56AF00B0760D /* UIImageExtentions.swift in Sources */,
 				3F2B78BA239F568700B0760D /* AppDelegate.swift in Sources */,
 				3F2B78BC239F568700B0760D /* SceneDelegate.swift in Sources */,
 				3F2B78BE239F568700B0760D /* ContentView.swift in Sources */,
+				3F2B78D0239F56B500B0760D /* CaptureImageView.swift in Sources */,
+				3F2B78D2239F56C200B0760D /* Coodinator.swift in Sources */,
+				3F2B78D4239F58A800B0760D /* Resistor Band.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Photohms/Preview Content\"";
+				DEVELOPMENT_TEAM = FLB6R5WL48;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Photohms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Photohms/Preview Content\"";
+				DEVELOPMENT_TEAM = FLB6R5WL48;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Photohms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
